@@ -51,6 +51,7 @@ def setup_velocity_config(install_dir):
         "forwarding-secret": generate_secret(),
         "announce-forge": False,
         "kick-on-proxy-restart": True,
+        "online-mode": False,
         "servers": {
             "lobby": "185.9.145.186:25640"
         },

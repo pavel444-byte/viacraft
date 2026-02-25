@@ -186,4 +186,9 @@ def main():
     print(f"To start Velocity, run: {start_script}")
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except KeyboardInterrupt:
+        print("\nInstallation interrupted by user.")
+    except Exception as e: 
+        print(f"An error occurred: {e}")

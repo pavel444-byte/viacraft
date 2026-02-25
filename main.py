@@ -5,7 +5,7 @@ from pathlib import Path
 
 PAPER_API = "https://api.papermc.io/v2/projects/velocity"
 MODRINTH_API = "https://api.modrinth.com/v2"
-
+print("This program was sponsored by Server of minecraft named SecretProject, if you want to support us, you can join our server or donate to us. IP: me.secretproject.me")
 def get_latest_velocity():
     response = requests.get(PAPER_API)
     response.raise_for_status()
